@@ -1,0 +1,169 @@
+body{
+    background-color: whitesmoke;
+    font-family: Montserrat, sans-serif;
+}
+.haut{
+    background-color:#405e9a ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+.identifier{
+    width: 30%;
+    padding-top:25px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.facebook{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 25px;
+    text-align: center;
+    width: 40%;
+}
+#email{
+    height: 20px;
+    width: 175px;
+    border-radius: 2px;
+    background-color: white;
+}
+#password{
+    height: 20px;
+    width: 175px;
+    border-radius: 2px;
+    background-color: white;
+}
+.email{
+    padding-right:5px ;
+}
+.password{
+    padding-right:5px ;
+}
+#login{
+    background-color:#4267b2 ;
+    border-radius: 2px;
+    box-shadow: steelblue 1px 1px;
+    width: 75px;
+    height: 25px;
+}
+.login{
+    padding-top: 15px;
+}
+#forgot{
+    opacity: 50%;
+}
+.corps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.colone1{
+    width: 500px;
+}
+.connect{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.ligne{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 50px;
+    height: 50px;
+}
+.gras{
+    font-weight: bold;
+}
+.text{
+    padding-left: 5px;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+#it{
+    font-size: 18px;
+}
+input{
+    margin: 5px;
+}
+#name{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+#mobilemail{
+    width: 320px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+#newpassword{
+    width: 320px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+}
+.birthday{
+    color: grey;
+}
+.colone2{
+    width: 400px;
+}
+.iconhelp{
+    padding-left: 5px;
+}
+.signup{
+    background-color:#5d9549;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+@media all and (max-width: 880px){
+    .haut {
+        background-color: #405e9a;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1280px){
+    .haut {
+        background-color: #405e9a;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        color: white;
+    }
+}
+@media all and (min-width: 320px) and (max-width: 490px){
+    .identifier{
+        width: 30%;
+        padding-top:25px ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+}
