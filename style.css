@@ -6,8 +6,8 @@ body{
     background-color:#405e9a ;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content:space-around ;
     color: white;
 }
 .identifier{
@@ -21,10 +21,9 @@ body{
 .facebook{
     font-size: 40px;
     font-weight: bold;
-    padding-left: 50px;
     padding-top: 25px;
     text-align: center;
-    width: 40%;
+    width: 20%;
 }
 #email{
     height: 20px;
@@ -142,7 +141,7 @@ input{
         background-color: #405e9a;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         color: white;
     }
@@ -152,7 +151,7 @@ input{
         background-color: #405e9a;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         color: white;
     }
